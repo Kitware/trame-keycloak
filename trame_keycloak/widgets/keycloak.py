@@ -1,5 +1,13 @@
+"""Keycloak Widget support both vue2 and vue3 backend.
+
+(Currently Work-In-Progress)
+"""
 from trame_client.widgets.core import AbstractElement
 from .. import module
+
+__all__ = [
+    "Auth",
+]
 
 
 class HtmlElement(AbstractElement):
